@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+#navbar{
+    display:flex;
+    flex-direction: row;
+    height: 62px;
+    background-color: black;
+
+}
+/* #websitelogo{
+    width:50px;
+    height:60px;
+} */
+#websitelogo img{
+    width:50px;
+    height:60px;
+    
+    -webkit-filter: invert(1);
+    filter: invert(1);
+        
+
+}
+#websitelogotext{
+    padding: 10px;
+    font-size: 25px;
+    color:white;
+}
+#navbar ul{
+    margin-left:355px;
+}
+
+#navbar ul li {
+    padding:11px;
+
+}
+#navbar ul li a {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+
+}
+#navbar ul li a:hover {
+    font-weight: bold;
+    color: grey;
+
+}
+#navbar ul{
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+   
+    height: 56px;
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+    background:  url('/static/bg.jpg') no-repeat center center/cover;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+#services div{
+    color: white;
+    font-size: 52px;
+}
+#services .small{
+    font-size: 32px;
+    color: thistle;
+}
+#mission{
+    background-color: rgb(213, 213, 238);
+    height: 550px;
+
+}
+#missionmoto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    padding: 16px;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: 2px solid black;
+    width: 20%;
+    height: 312px;
+    border-radius: 10px;
+    padding:10px 10px;
+    margin :10px auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+#logo1{
+    background:url('/static/logo1.jpg')  center center/cover;
+}
+#logo2{
+    background:url('/static/logo2.jpg')  center center/cover;
+}
+#logo3{
+    background:url('/static/logo3.jpg')  center center/cover;
+}
+#logo4{
+    background:url('/static/logo4.jpg')  center center/cover;
+}
+#footer{
+    background-color: violet;
+    height:120px;
+}
+#footer{
+    color: white;;
+    text-align: center;
+    background-color: black;
+    height:30px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

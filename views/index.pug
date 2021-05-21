@@ -1,0 +1,50 @@
+//- index.pug
+
+html
+  head 
+    title This is a Dance website.
+
+    style 
+    
+        include ../static/style.css
+  body
+    
+    nav#navbar 
+
+        div#websitelogo
+            img(src="/static/logo.png", alt="Dance Academy")
+        div#websitelogotext 
+            | Dance Academy
+
+        ul 
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Services]
+            li #[a(href='/') Contact]
+
+
+    section#services 
+        div Welcome To Our Dance Website.
+        div.small Eat Sleep Dance Repeat
+            
+
+    section#mission 
+        div#missionmoto Our Mission
+        section#cards
+             div.card#logo1   Dance Perfection
+             div.card#logo2   Perfect Perforamnce
+             div.card#logo3   World Class Teachers
+             div.card#logo4   Award Winning Platform
+                        
+    
+                 
+
+    footer#footer 
+        | Copyright @ 2019 Madcap_lahwf | All rights reserved.
+
+
+
+
+    include ../static/index.js
+
+    
