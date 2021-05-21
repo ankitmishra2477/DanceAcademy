@@ -1,0 +1,19 @@
+//When First time using
+git config --global user.name ankitmishra2477
+git config --global user.email "ankit.mishra2477@gmail.com"
+
+
+
+//For Projetcs
+touch .gitignore
+git init
+
+//for generating ssh for your github settings
+$ ssh-keygen -t rsa -b 4096 -C "ankit.mishra2477@gmail.com"
+
+git add .
+git commit -m "Initial Commit"
+git status
+
+git remote add origin git@github.com:ankitmishra2477/DanceAcade //git repository ssh 
+git push origin master
